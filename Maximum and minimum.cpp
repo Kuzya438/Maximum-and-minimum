@@ -8,7 +8,7 @@ int main() {
 	int integerArray[size]{ 55, 211, 3, 43, 5, 76, 7, 8, 947, 10 };
 	int min{ integerArray[0] }, max{};
 
-	std::cout << "Ìàññèâ: ";
+	std::cout << "ĞœĞ°ÑÑĞ¸Ğ²: ";
 
 	for (int element{}; element < size; ++element) {
 		std::cout << integerArray[element] << " ";
@@ -16,8 +16,8 @@ int main() {
 		if (max <= integerArray[element]) { max = integerArray[element]; }
 	}
 
-	std::cout << std::endl << "Ìèíèìàëüíûé ıëåìåíò: " << min << std::endl;;
-	std::cout << "Ìàêñèìàëüíûé ıëåìåíò: " << max << std::endl;;
+	std::cout << std::endl << "ĞœĞ¸Ğ½Ğ¸Ğ¼Ğ°Ğ»ÑŒĞ½Ñ‹Ğ¹ ÑĞ»ĞµĞ¼ĞµĞ½Ñ‚: " << min << std::endl;;
+	std::cout << "ĞœĞ°ĞºÑĞ¸Ğ¼Ğ°Ğ»ÑŒĞ½Ñ‹Ğ¹ ÑĞ»ĞµĞ¼ĞµĞ½Ñ‚: " << max << std::endl;;
 
 	return EXIT_SUCCESS;
 }
